@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 0;
+    margin: 0;
+}
+input{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+}
+.clearfixed{
+    overflow: hidden;
+}
+.navD{
+    margin: 0 auto;
+    width: 1170px;
+    height: 57px;
+}
+.navD h2{
+    float: left;
+    font-size: 21px;
+    font-family: 黑体;
+    width: 115px;
+    margin: 0;
+    height: 55px;
+    box-sizing: border-box;
+    padding: 11px 0;
+}
+.navD h2 i{
+    display: inline-block;
+    background:url("images/书.jpg") no-repeat;
+    width: 37px;
+    height: 31px;
+    margin-right: -7px;
+    vertical-align: middle;
+}
+.navD h2 span{
+    vertical-align: middle;
+}
+.navD ul{
+    float: right;
+}
+.navD ul li{
+    float: left;
+    display: block;
+
+}
+.navD ul li:hover{
+    border-bottom: 3px solid red;
+}
+.navD ul li:last-child:hover{
+    border-bottom: none;
+    transition: 1s;
+}
+.navD ul li a{
+    line-height: 55px;
+    padding-left: 16px;
+    padding-right: 17px;
+    font-size: 14px;
+    color: #393a3a;
+    font-family: 微软雅黑;
+}
+
+.bg_img{
+    position: relative;
+}
+.bg_img a{
+    position: absolute;
+    display: block;
+    width: 327px;
+    height: 63px;
+    background-color: #e8504e;
+    color: white;
+    text-align: center;
+    line-height: 63px;
+    font-size: 30px;
+    font-family: 微软雅黑;
+    top:422px;
+    left: 119px;
+    cursor: pointer;
+}
+.bg_img a:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+.block{
+    padding-top: 15px;
+    padding-bottom: 70px;
+}
+.block ul li{
+    float: left;
+    width: 25%;
+}
+.block ul li span{
+    display: block;
+    width: 100%;
+    height: 131px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 37px;
+}
+.block ul li i{
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+.block ul li:nth-child(1) i{
+   background: url("images/task6_03.jpg") no-repeat;
+}
+.block ul li:nth-child(2) i{
+    background: url("images/task6_4.jpg") no-repeat;
+}
+.block ul li:nth-child(3) i{
+    background: url("images/task6_05.jpg") no-repeat;
+}
+.block ul li:nth-child(4) i{
+    background: url("images/task6_07.jpg") no-repeat;
+}
+.block ul li p{
+    box-sizing: border-box;
+    padding:0 60px ;
+    height: 51px;
+    border-right:2px solid #bbbbbb ;
+    font-size: 14px;
+    font-family: 黑体;
+    color: #767777;
+    text-align: center;
+}
+.about{
+    background-color: #edecec;
+    text-align: center;
+    padding: 85px 0;
+}
+.about i{
+    background: url("images/tasklogo_17.jpg") no-repeat;
+    display: inline-block;
+    width: 92px;
+    height: 92px;
+}
+.about p{
+    padding-top: 78px;
+    font-size: 53.59px;
+    font-family: 黑体;
+    color: #323333;
+}
+.city{
+    height: 340px;
+    background: url("images/task6_20.jpg") no-repeat;
+    text-align: center;
+}
+.city p:nth-child(1){
+    padding: 14px 0;
+    font-size: 21px;
+    font-family: 微软雅黑;
+    color: white;
+}
+.city p:nth-child(3){
+    font-size: 12px;
+    font-family: 微软雅黑 ;
+    color: white;
+}
+.city span{
+    display: inline-block;
+    width:31px ;
+    height: 18px;
+    border-top: 2px solid white;
+}
+.select select{
+    border: solid 1px #d9c9c2;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("images/xiala_21.jpg") no-repeat right;
+    padding-right: 10px;
+    width: 238px;
+    line-height: 37px;
+    margin-right: 30px;
+}
+select::-ms-expand{
+    display: none;
+}
+.select input{
+    border: 1px solid #be4e48;
+    height: 36px;
+    width: 236px;
+    background-color: #be4e48;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+.mural{
+    background-color:#f8f8f7;
+    text-align: center;
+    padding: 101px 0;
+}
+.mural ul{
+    width: 981px;
+    margin: 0 auto;
+}
+.mural ul li{
+    float: left;
+    margin-left: 38px;
+}
+.mural ul li:first-child{
+    margin-left: 0;
+}
+.mural ul li div{
+    box-sizing: border-box;
+    width: 216px;
+    padding: 11px 6px;
+    border: 2px solid #ebebeb;
+    background-color: white;
+}
+.mural ul li div i{
+    display: inline-block;
+    width: 200px;
+    height: 312px;
+}
+.mural ul li:nth-child(1) i{
+    background: url("images/壁画三.jpg");
+}
+.mural ul li:nth-child(2) i{
+    background: url("images/壁画一.jpg");
+}
+.mural ul li:nth-child(3) i{
+    background: url("images/壁画二.jpg");
+}
+.mural ul li:nth-child(4) i{
+    background: url("images/壁画四.jpg");
+}
+.mural ul li h3{
+    padding: 13px 0;
+    font-size: 17px;
+    font-family: 宋体;
+    color: #4b4c4c;
+}
+.mural ul li p{
+    font-size: 14px;
+    font-family: 宋体;
+    color: #898989;
+}
+.mural ul li:nth-child(2) h3{
+    letter-spacing: 32px;
+    font-weight: bold;
+}
+.time .time_img, .time .contant{
+    float: left;
+}
+.time .contant{
+    box-sizing: border-box;
+    width: 430px;
+    height: 566px;
+    padding: 73px 67px;
+}
+.time .contant h1{
+    text-align: center;
+    font-family: 宋体;
+}
+.time .contant h1 span{
+    color:red;
+    line-height: 70px;
+}
+.time .contant p{
+    font-size: 13px;
+    color:#b0b0b0;
+}
+.time .contant .btn_more{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.time .contant a {
+    display: inline-block;
+    width: 106px;
+    height: 32px;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+    line-height: 32px;
+}
+.time .contant a:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+.radiu{
+    text-align: center;
+}
+.radiu span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: 2px solid red;
+    margin-left: 15px;
+}
+.radiu span:first-child{
+    margin-left: 0;
+}
+.block_about{
+    margin: 0 auto;
+}
+.block_about .one,.block_about .one+div {
+    float: left;
+    width: 425px;
+    height: 527px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+
+}
+.block_about .font{
+   position: absolute;
+    top:50%;
+    transform: translateY(-50);
+    width: 100%;
+}
+.block_about .font div{
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 20px 0;
+}
+.two .font div{
+    background-color: red;
+}
+.block_about .one{
+    background-color: red;
+    color: white;
+}
+.block_about h1{
+    line-height: 36px;
+    font-size: 18px;
+    font-family: 宋体;
+}
+.block_about p{
+    font-size: 15px;
+    font-family: 宋体;
+}
+.block_about .font a{
+    display: block;
+    width:168px;
+    margin: 0 auto;
+    color: white;
+    line-height: 45px;
+}
+.one .font a{
+    border: 1px solid white;
+}
+.two .font a{
+    border: 1px solid red;
+    color: red;
+}
+.one .font a:hover{
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+.two .font a:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+.being{
+    padding: 100px 100px;
+}
+.being .top{
+    width: 418px;
+    margin: 0 auto;
+    text-align: center;
+}
+.being .top h1{
+    font-size: 21px;
+    font-family: 黑体;
+    color: #323333;
+}
+.being .top span{
+    display: inline-block;
+    width: 32px;
+    height: 2px;
+    background-color: red;
+}
+.being .top p{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.being .list,.being .form{
+    float: left;
+}
+.being .list{
+    width: 293px;
+    box-sizing: border-box;
+}
+.being .list h1{
+    font-size: 14px;
+    font-family: 黑体;
+    color: black;
+    line-height: 54px;
+}
+.being .list p{
+    font-size: 12px;
+    font-family: 宋体;
+    color: #231815;
+}
+.being .list a{
+    float: right;
+    font-size: 12px;
+    color: #231815;
+}
+.being .list, .form{
+    margin-top: 100px;
+    margin-left: 140px;
+}
+.form{
+    width: 650px;
+    height: 250px;
+}
+.form span{
+    display: inline-block;
+    width: 310px;
+    height: 41px;
+    background-color: #ededee;
+    box-sizing: border-box;
+    padding-left:20px;
+    margin-top: 17px;
+}
+.form input[type=text]{
+    line-height: 40px;
+    border: 0;
+    padding: 0;
+    width: 69%;
+    background-color: #ededee;
+    outline: none;
+}
+.form textarea{
+    border: 0;
+    overflow: hidden;
+    background-color: #ededee;
+    margin-top: 12px;
+    padding:10px 20px;
+    outline: none;
+}
+.form button{
+    width: 624px;
+    height: 60px;
+    background-color: #ededee;
+    text-align: center;
+    color: black;
+    font-family: 黑体;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+}
+.callme{
+    margin-top: 166px;
+    background-color: #32363e;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    height: 356px;
+}
+.callme h1{
+    font-size: 21px;
+    font-family: 黑体;
+    line-height: 60px;
+}
+.callme p {
+    font-size: 12px;
+    font-family: 宋体;
+    width: 472px;
+    margin: 0 auto;
+}
+#email{
+    padding: 47px 0;
+}
+#email input{
+    width: 431px;
+    height:41px;
+    border: 1px solid #989a9e;
+}
+#email button{
+    width: 80px;
+    line-height: 41px;
+    background-color: #6f7278;
+    border: 1px solid #51535b;
+    color: white;
+    margin-left: -5px;
+}
+.backto{
+    position:relative;
+    height: 58px;
+    background-color: #303039;
+    line-height: 58px;
+    color: white;
+}
+.backto span{
+    position: absolute;
+}
+.backto span:first-child {
+    left: 40px;
+}
+.backto span:last-child{
+     right: 40px;
+}
+
+
